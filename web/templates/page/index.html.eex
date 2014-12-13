@@ -1,0 +1,7 @@
+<h1>Knight Capital Management, LLC </h1>
+<div id='contentWrapper' ng-controller='IndexCtrl'>
+  <ul>
+    <li ng-repeat='ticker in tickers track by $index'>{{ticker.symbol}}</li>
+  </ul>
+  <button ng-click='getWatchlists()'>Get Watchlists</button>
+</div>

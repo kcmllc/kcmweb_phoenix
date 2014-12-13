@@ -1,0 +1,42 @@
+{
+  "name": "kcmweb_phoenix",
+  "version": "0.0.1",
+  "authors": [
+    "Kyle Gay <kyle.gay@knightcapllc.com>"
+  ],
+  "description": "Knight Capital Management",
+  "main": "app.js",
+  "license": "MIT",
+  "homepage": "https://github.com/kcmllc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kcmllc/kcmweb_phoenix.git"
+  },
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-ui-tinymce": "latest",
+    "angular-growl": "~0.4.0",
+    "ng-socket-io": "~0.2.0",
+    "angular-off-canvas": "~0.1.0",
+    "angular-feeds": "~0.0.1",
+    "jasny-bootstrap": "latest",
+    "angular-toastr": "latest",
+    "angular-xeditable": "latest",
+    "jquery": "latest",
+    "angular-animate": "latest"
+  },
+  "resolutions": {
+    "angular": "1.3.5"
+  }
+}
